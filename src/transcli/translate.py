@@ -166,9 +166,5 @@ def main():
         print(backStyle_1("网络查询错误:") + frontStyle_2(translation_json))
         return 3
     result = resolve_res(trans_json=translation_json.json())
-    print(result)
     return result
     
-
-if __name__ == '__main__':
-    main()
